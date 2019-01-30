@@ -1,0 +1,43 @@
+                Listado de relaciones
+ Esquema |        Nombre         |   Tipo    | Dueño 
+---------+-----------------------+-----------+-------
+ public  | Producto              | tabla     | admin
+ public  | _Audience             | tabla     | admin
+ public  | _GlobalConfig         | tabla     | admin
+ public  | _Hooks                | tabla     | admin
+ public  | _JobSchedule          | tabla     | admin
+ public  | _JobStatus            | tabla     | admin
+ public  | _Join:roles:_Role     | tabla     | admin
+ public  | _Join:users:_Role     | tabla     | admin
+ public  | _PushStatus           | tabla     | admin
+ public  | _Role                 | tabla     | admin
+ public  | _SCHEMA               | tabla     | admin
+ public  | _User                 | tabla     | admin
+ public  | bill                  | tabla     | admin
+ public  | bill_id_seq           | secuencia | admin
+ public  | category              | tabla     | admin
+ public  | category_id_seq       | secuencia | admin
+ public  | city                  | tabla     | admin
+ public  | city_id_seq           | secuencia | admin
+ public  | customer              | tabla     | admin
+ public  | customer_id_seq       | secuencia | admin
+ public  | discount_cupon        | tabla     | admin
+ public  | discount_cupon_id_seq | secuencia | admin
+ public  | payment_method        | tabla     | admin
+ public  | payment_method_id_seq | secuencia | admin
+ public  | product               | tabla     | admin
+ public  | product_id_seq        | secuencia | admin
+ public  | product_order         | tabla     | admin
+ public  | product_order_id_seq  | secuencia | admin
+ public  | provider              | tabla     | admin
+ public  | provider_id_seq       | secuencia | admin
+ public  | purchase_order        | tabla     | admin
+ public  | purchase_order_id_seq | secuencia | admin
+ public  | ship                  | tabla     | admin
+ public  | ship_id_seq           | secuencia | admin
+ public  | state                 | tabla     | admin
+ public  | state_id_seq          | secuencia | admin
+ public  | users                 | tabla     | admin
+ public  | users_id_seq          | secuencia | admin
+(38 filas)
+
